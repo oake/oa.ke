@@ -6,7 +6,7 @@ html,
 body {
 	margin: 0;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	line-height: 1;
 	overflow: hidden;
 	user-select: none;
@@ -24,7 +24,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	gap: 4rem;
+	gap: 8.8rem;
 }
 
 .user {
@@ -38,7 +38,7 @@ a {
 	border-radius: 50%;
 	background: linear-gradient(#fdfdfd, #c9c9c9);
 	border: 0.1rem solid #434448;
-	margin-bottom: 0.8rem;
+	margin-bottom: 1rem;
 }
 
 .avatar img {
@@ -70,7 +70,7 @@ a {
 .name {
 	margin: 0;
 	color: #fff;
-	letter-spacing: 0.1rem;
-	text-indent: 0.1rem;
-	text-shadow: 0.1rem 0.1rem 0.2rem #000;
+	letter-spacing: 0.02rem;
+	text-indent: 0.02rem;
+	text-shadow: 0.1rem 0.1rem 1rem #00000099;
 }
