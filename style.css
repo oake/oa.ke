@@ -60,9 +60,11 @@ a {
 	border-radius: 50%;
 	pointer-events: none;
 	background: linear-gradient(135deg,
-			rgba(255, 255, 255, 0),
-			rgba(255, 255, 255, 0.33) 50%,
-			rgba(255, 255, 255, 0) 50%);
+			transparent,
+			#ffffff85 50%,
+			transparent 50%);
+
+	mask-image: linear-gradient(180deg, black 20%, transparent 50%);
 }
 
 .name {
