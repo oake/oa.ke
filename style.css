@@ -1,0 +1,74 @@
+:root {
+	font-size: 100%;
+}
+
+html,
+body {
+	margin: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-size: 1.2rem;
+	line-height: 1;
+	overflow: hidden;
+	user-select: none;
+	background:
+		url("assets/gradient.png") no-repeat center,
+		url("assets/background.png") repeat left top #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.users {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 4rem;
+}
+
+.user {
+	text-align: center;
+}
+
+.avatar {
+	display: inline-block;
+	position: relative;
+	padding: 0.3rem;
+	border-radius: 50%;
+	background: linear-gradient(#fdfdfd, #c9c9c9);
+	border: 0.1rem solid #434448;
+	margin-bottom: 0.8rem;
+}
+
+.avatar img {
+	width: 9rem;
+	height: 9rem;
+	border-radius: 50%;
+	border: 0.1rem solid #434448;
+	display: block;
+	object-fit: cover;
+}
+
+.avatar::after {
+	content: "";
+	position: absolute;
+	top: 0.4rem;
+	left: 0.4rem;
+	width: 9rem;
+	height: 9rem;
+	border-radius: 50%;
+	pointer-events: none;
+	background: linear-gradient(135deg,
+			rgba(255, 255, 255, 0),
+			rgba(255, 255, 255, 0.33) 50%,
+			rgba(255, 255, 255, 0) 50%);
+}
+
+.name {
+	margin: 0;
+	color: #fff;
+	letter-spacing: 0.1rem;
+	text-indent: 0.1rem;
+	text-shadow: 0.1rem 0.1rem 0.2rem #000;
+}
