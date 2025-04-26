@@ -5,5 +5,11 @@
   "org.matrix.msc2965.authentication": {
     "issuer": "https://auth.matrix.oa.ke/",
     "account": "https://auth.matrix.oa.ke/account"
-  }
+  },
+  "org.matrix.msc4143.rtc_foci":[
+    {
+       "type":"livekit",
+       "livekit_service_url":"https://rtc.matrix.oa.ke"
+    }
+ ]
 }
