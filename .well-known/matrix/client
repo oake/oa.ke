@@ -1,5 +1,8 @@
 {
   "m.homeserver": {
     "base_url": "https://matrix.oa.ke"
+  },
+  "org.matrix.msc3575.proxy": {
+    "url": "https://ss.matrix.oa.ke"
   }
 }
